@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CONTACT US</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contactstyles.css">
+  
+
+  <!--PLUGIN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+<style>
+  @-webkit-keyframes fade {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1
+    }
+  }
+
+  .caption,
+  .well,
+  .jumbotron {
+    -webkit-animation: fade;
+    -webkit-animation-duration: 5s;
+  }
+</style>
+
+<body style="background-color:#eaeaf0;">
+
+
+
+    <nav class="navbar navbar-default navbar-fixed-top " style= "background-color: #F97B22;background-image: linear-gradient(315deg, #F97B22 0%, #f6924a 74%); padding-top:15px;padding-bottom:15px;">
+        <div class="container-fluid">
+          <div class="navbar-header" style="height:50px; width:auto;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>     
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <img src="1587472542667logo.png" height=50px width=auto style="border-radius: 50%;">
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="myNavbar" >
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="index.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px; font-weight: 250; padding: 15px 15px 15px 15px;"><b>HOME</b></a></li>
+            <li><a href="about.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px; font-weight: 250; padding: 15px 15px 15px 15px;"><b>ABOUT US</b></a></li>
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white;  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 15px 15px 15px;"><b>GALLERY</b><span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color: #F97B22;background-image: linear-gradient(315deg, #F97B22 0%, #009ffd 74%); ">
+                <li><a href="photo.html" style="color:white; background-color:  #F97B22;background-image: linear-gradient(315deg, #F97B22 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>PHOTOS</b></a></li>
+                <li><a href="vedio.html" style="color:white; background-color: #F97B22;background-image: linear-gradient(315deg, #F97B22 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>VIDEOS</b></a></li>
+              </ul>
+            </li>
+            
+            <li><a href="contact.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 15px 15px 15px;"><b>CONTACT US</b></a></li>
+            <li><a href="donate.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 35px 15px 15px;"><b>DONATE</b></a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+
+<br>
+  <div class="container1">
+    <div class="innerwrap">
+
+      <section class="section1 clearfix">
+        <div class="textcenter">
+          <span class="shtext"></span>
+          <br><br>
+          <h1 style="color: #d76c07; font-size: 48px; font-family: 'Signika', sans-serif; padding-bottom: 10px;">Drop Us
+            a Mail</h1>
+        </div>
+      </section>
+
+      <section class="section2 clearfix ">
+        
+         
+          <div class="sec1contactform">
+            <h3 class="sec2frmtitle ">Want to Know More?? Drop Us a Mail</h3>
+            <form action="javascript:sendmail()" method="post">
+              <div class="clearfix">
+                <input class="col2 first" id="FirstName" type="text" name="Name" placeholder="FirstName">
+                <input class="col2 last" id="LastName" type="text" name="LastName" placeholder="LastName">
+              </div>
+              <div class="clearfix">
+                <input class="col2 first" id="Sender" name="Sender" type="Email" placeholder="Email">
+                <input class="col2 last" id="Number" name="Number" type="text" placeholder="Contact Number">
+              </div>
+              <div class="clearfix">
+                <textarea id="Message" name="Message" cols="30" rows="7"placeholder="Your message"></textarea>
+              </div>
+              <div class="clearfix"><input type="submit" class="btn btn-contact"></div>
+            </form>
+          </div>
+          <div class="col2 column2  " style="margin-left: 300px;
+          margin-right: 270px;
+          margin-top: 40px; "
+          >   
+
+            <div class="sec2innercont">
+              <div class="sec2addr ">
+                <p>Sy.No. 18/2, K. Chudahalli, Somanahalli Post, Near Guhantara Resort & KMS Farm, Uttarahalli Hobli, Kanakapura Main Road, Bangalore - 560 082</p>
+                <p><span class="collig">Phone :</span> +91 - 9632300046</p>
+                <p><span class="collig">Email :</span> wsatrustindia@gmail.com</p>
+              </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+  
+                    <img src="1587472542667logo.png" class="logo-img" style="border-radius: 50%;">
+  
+                </div>
+  
+  
+            
+  
+                <div class="grid-item inner-grid-container">
+  
+                  <div class="grid-item"><a href="index.html">Home</a></div>
+                                                     <div class="grid-item"><a href="contactus.html">Contact Us</a></div>
+                </div>
+  
+                 <div class="grid-item">
+                <div class = "social-buttons" style="float:left;">
+                    <a href= "https://instagram.com/we__save__animals?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fab fa-instagram circle-icon"></i></a>
+                    <a href= "https://www.facebook.com/WSA-We-Save-Animals-1663165890625653/?hc_ref=ARQ7vjLG3HV5adfBbiHtF6yOfhxAc-vHyBR6IC_l3cnIDUFiVYrMWs55MWhjJnGKdKw" target="_blank"><i class="fab fa-facebook circle-icon"></i></a>
+                    <a href= "https://api.whatsapp.com/send/?phone=919632300046&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp circle-icon"></i></a><br>
+                </div>
+            </div>  
+            </div>
+            <hr>
+  
+            <p style="text-align: center;">© 2020. We Save Animals (WSA) Welfare Trust.
+                All Rights Reserved.</p>
+  
+        </div>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+   
+    <script>  
+
+      function sendmail(){
+       var firstname = $('#FirstName').val();
+       var lastname = $('#LastName').val();
+       var name = firstname + " " + lastname;
+       var email = $('#Sender').val();
+       var Number = $('#Number').val();
+       var message = $('#Message').val();
+ 
+ 
+       var Body='Name: '+name+'<br>Email: '+email+'<br>Contact No.: '+Number+'<br>Message: Your response has been noted down';
+       var body='Name: '+name+'<br>Email: '+email+'<br>Contact No.: '+Number+'<br>Message:'+message;
+ 
+       Email.send({
+         Host : "smtp.elasticemail.com",
+         Username : "sahil.dayanand1112@gmail.com",
+         Password : "053D6A25FF7DBA65A166C0087700F436B1B7",
+         From: 'sahil.dayanand1112@gmail.com',
+         To: email,
+         Subject: "New message on contact from "+name,
+         Body: Body
+       }).then(
+         message =>{
+            if(message=="OK"){
+             Email.send({
+             Host : "smtp.elasticemail.com",
+             Username : "sahil.dayanand1112@gmail.com",
+             Password : "053D6A25FF7DBA65A166C0087700F436B1B7",
+            From: 'sahil.dayanand1112@gmail.com',
+            To: "sahil.dayanand1112@gmail.com",
+            Subject: "issue from "+name,
+            Body: body
+          }).then(
+            message =>
+                alert( "send to host"+message)
+          );
+
+        }}
+			);
+      
+		}
+
+ </script>
+
+ 
+ 
+
+
+
+
+</body>
+
+</html>
